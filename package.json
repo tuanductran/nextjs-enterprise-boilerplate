@@ -72,7 +72,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@total-typescript/ts-reset": "^0.4.2",
-    "@types/node": "^18.0.0",
+    "@types/node": "^20.3.3",
     "@types/react": "^18.0.37",
     "@types/react-dom": "^18.0.11",
     "@typescript-eslint/eslint-plugin": "^5.57.1",
