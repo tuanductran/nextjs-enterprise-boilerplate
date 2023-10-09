@@ -1678,14 +1678,7 @@
   dependencies:
     regenerator-runtime "^0.13.11"
 
-"@babel/runtime@^7.12.5":
-  version "7.22.15"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.22.15.tgz#38f46494ccf6cf020bd4eed7124b425e83e523b8"
-  integrity sha512-T0O+aa+4w0u06iNmapipJXMV4HoUir03hpx3/YqXXhu9xim3w+dVphjFWl1OH8NbZHw5Lbm9k45drDkgq2VNNA==
-  dependencies:
-    regenerator-runtime "^0.14.0"
-
-"@babel/runtime@^7.13.10", "@babel/runtime@^7.17.8", "@babel/runtime@^7.22.6", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4":
+"@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.17.8", "@babel/runtime@^7.22.6", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4":
   version "7.23.1"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.23.1.tgz#72741dc4d413338a91dcb044a86f3c0bc402646d"
   integrity sha512-hC2v6p8ZSI/W0HUzh3V8C5g+NwSKzKPtJwSpTjwl0o297GP9+ZLQSkdvHz46CM3LqyoXxq+5G9komY+eSqSO0g==
@@ -5210,12 +5203,12 @@
     ts-dedent "^2.0.0"
 
 "@storybook/testing-library@^0.2.0":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@storybook/testing-library/-/testing-library-0.2.1.tgz#5128fa857cb798b71cba3d2b0af637f0f414acd5"
-  integrity sha512-AdbfLCm1C2nEFrhA3ScdicfW6Fjcorehr6RlGwECMiWwaXisnP971Wd4psqtWxlAqQo4tYBZ0f6rJ3J78JLtsg==
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@storybook/testing-library/-/testing-library-0.2.2.tgz#c8e089cc8d7354f6066fdb580fae3eedf568aa7c"
+  integrity sha512-L8sXFJUHmrlyU2BsWWZGuAjv39Jl1uAqUHdxmN42JY15M4+XCMjGlArdCCjDe1wpTSW6USYISA9axjZojgtvnw==
   dependencies:
     "@testing-library/dom" "^9.0.0"
-    "@testing-library/user-event" "~14.4.0"
+    "@testing-library/user-event" "^14.4.0"
     ts-dedent "^2.2.0"
 
 "@storybook/theming@7.4.6":
@@ -5457,10 +5450,10 @@
     "@testing-library/dom" "^9.0.0"
     "@types/react-dom" "^18.0.0"
 
-"@testing-library/user-event@~14.4.0":
-  version "14.4.3"
-  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-14.4.3.tgz#af975e367743fa91989cd666666aec31a8f50591"
-  integrity sha512-kCUc5MEwaEMakkO5x7aoD+DLi02ehmEM2QCGWvNqAS1dV/fAvORWEjnjsEIvml59M7Y5kCkWN6fCCyPOe8OL6Q==
+"@testing-library/user-event@^14.4.0":
+  version "14.5.1"
+  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-14.5.1.tgz#27337d72046d5236b32fd977edee3f74c71d332f"
+  integrity sha512-UCcUKrUYGj7ClomOo2SpNVvx4/fkd/2BbIHDCle8A0ax+P3bU7yJwDBDrS6ZwdTMARWTGODX1hEsCcO+7beJjg==
 
 "@tootallnate/once@2":
   version "2.0.0"
@@ -15200,7 +15193,7 @@ regex-parser@^2.2.11:
   resolved "https://registry.yarnpkg.com/regex-parser/-/regex-parser-2.2.11.tgz#3b37ec9049e19479806e878cabe7c1ca83ccfe58"
   integrity sha512-jbD/FT0+9MBU2XAZluI7w2OBs1RBi6p9M83nkoZayQXXU9e8Robt69FcZc7wU4eJD/YFTjn1JdCk3rbMJajz8Q==
 
-regexp.prototype.flags@^1.4.3, regexp.prototype.flags@^1.5.1:
+regexp.prototype.flags@^1.4.3, regexp.prototype.flags@^1.5.0, regexp.prototype.flags@^1.5.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/regexp.prototype.flags/-/regexp.prototype.flags-1.5.1.tgz#90ce989138db209f81492edd734183ce99f9677e"
   integrity sha512-sy6TXMN+hnP/wMy+ISxg3krXx7BAtWVO4UouuCN/ziM9UEne0euamVNafDfvC83bRNr95y0V5iijeDQFUNpvrg==
@@ -15208,15 +15201,6 @@ regexp.prototype.flags@^1.4.3, regexp.prototype.flags@^1.5.1:
     call-bind "^1.0.2"
     define-properties "^1.2.0"
     set-function-name "^2.0.0"
-
-regexp.prototype.flags@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/regexp.prototype.flags/-/regexp.prototype.flags-1.5.0.tgz#fe7ce25e7e4cca8db37b6634c8a2c7009199b9cb"
-  integrity sha512-0SutC3pNudRKgquxGoRGIz946MZVHqbNfPjBdxeOhBrdgDKlRoXmYLQN9xRbrR09ZXWeGAdPuif7egofn6v5LA==
-  dependencies:
-    call-bind "^1.0.2"
-    define-properties "^1.2.0"
-    functions-have-names "^1.2.3"
 
 regexpu-core@^5.3.1:
   version "5.3.2"
