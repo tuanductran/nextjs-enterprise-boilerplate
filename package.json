@@ -23,7 +23,7 @@
     "coupling-graph": "npx madge --extensions js,jsx,ts,tsx,css,md,mdx ./ --exclude '.next|tailwind.config.js|reset.d.ts|prettier.config.js|postcss.config.js|playwright.config.ts|next.config.js|next-env.d.ts|instrumentation.ts|e2e/|README.md|.storybook/|.eslintrc.js' --image graph.svg"
   },
   "dependencies": {
-    "@next/bundle-analyzer": "^13.3.0",
+    "@next/bundle-analyzer": "^14.0.0",
     "@radix-ui/react-accordion": "^1.1.1",
     "@radix-ui/react-checkbox": "^1.0.3",
     "@radix-ui/react-dialog": "^1.0.3",
@@ -49,7 +49,7 @@
     "@vercel/otel": "^0.3.0",
     "class-variance-authority": "^0.7.0",
     "lodash": "^4.17.21",
-    "next": "^13.3.0",
+    "next": "^14.0.0",
     "next-compose-plugins": "^2.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -81,7 +81,7 @@
     "autoprefixer": "^10.4.14",
     "cross-env": "^7.0.3",
     "eslint": "8.52.0",
-    "eslint-config-next": "13.5.6",
+    "eslint-config-next": "14.0.2",
     "eslint-config-prettier": "^9.0.0",
     "eslint-config-react-app": "^7.0.1",
     "eslint-plugin-import": "^2.29.0",
