@@ -3388,11 +3388,11 @@
     tslib "^2.5.0"
 
 "@playwright/test@^1.32.3":
-  version "1.40.0"
-  resolved "https://registry.yarnpkg.com/@playwright/test/-/test-1.40.0.tgz#d06c506977dd7863aa16e07f2136351ecc1be6ed"
-  integrity sha512-PdW+kn4eV99iP5gxWNSDQCbhMaDVej+RXL5xr6t04nbKLCBwYtA046t7ofoczHOm8u6c+45hpDKQVZqtqwkeQg==
+  version "1.40.1"
+  resolved "https://registry.yarnpkg.com/@playwright/test/-/test-1.40.1.tgz#9e66322d97b1d74b9f8718bacab15080f24cde65"
+  integrity sha512-EaaawMTOeEItCRvfmkI9v6rBkF1svM8wjl/YPRrg2N2Wmp+4qJYkWtJsbew1szfKKDm6fPLy4YAanBhIlf9dWw==
   dependencies:
-    playwright "1.40.0"
+    playwright "1.40.1"
 
 "@pmmmwh/react-refresh-webpack-plugin@^0.5.5":
   version "0.5.11"
@@ -13968,17 +13968,17 @@ playwright-core@1.33.0, playwright-core@>=1.2.0:
   resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.33.0.tgz#269efe29a927cd6d144d05f3c2d2f72bd72447a1"
   integrity sha512-aizyPE1Cj62vAECdph1iaMILpT0WUDCq3E6rW6I+dleSbBoGbktvJtzS6VHkZ4DKNEOG9qJpiom/ZxO+S15LAw==
 
-playwright-core@1.40.0:
-  version "1.40.0"
-  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.40.0.tgz#82f61e5504cb3097803b6f8bbd98190dd34bdf14"
-  integrity sha512-fvKewVJpGeca8t0ipM56jkVSU6Eo0RmFvQ/MaCQNDYm+sdvKkMBBWTE1FdeMqIdumRaXXjZChWHvIzCGM/tA/Q==
+playwright-core@1.40.1:
+  version "1.40.1"
+  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.40.1.tgz#442d15e86866a87d90d07af528e0afabe4c75c05"
+  integrity sha512-+hkOycxPiV534c4HhpfX6yrlawqVUzITRKwHAmYfmsVreltEl6fAZJ3DPfLMOODw0H3s1Itd6MDCWmP1fl/QvQ==
 
-playwright@1.40.0:
-  version "1.40.0"
-  resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.40.0.tgz#2a1824b9fe5c4fe52ed53db9ea68003543a99df0"
-  integrity sha512-gyHAgQjiDf1m34Xpwzaqb76KgfzYrhK7iih+2IzcOCoZWr/8ZqmdBw+t0RU85ZmfJMgtgAiNtBQ/KS2325INXw==
+playwright@1.40.1:
+  version "1.40.1"
+  resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.40.1.tgz#a11bf8dca15be5a194851dbbf3df235b9f53d7ae"
+  integrity sha512-2eHI7IioIpQ0bS1Ovg/HszsN/XKNwEG1kbzSDDmADpclKc7CyqkHw7Mg2JCz/bbCxg25QUPcjksoMW7JcIFQmw==
   dependencies:
-    playwright-core "1.40.0"
+    playwright-core "1.40.1"
   optionalDependencies:
     fsevents "2.3.2"
 
@@ -16952,6 +16952,7 @@ wordwrap@^1.0.0:
   integrity sha512-gvVzJFlPycKc5dZN4yPkP8w7Dc37BtP1yczEneOb4uq34pXZcvrtRTmWV8W+Ume+XCxKgbjM+nevkyFPMybd4Q==
 
 "wrap-ansi-cjs@npm:wrap-ansi@^7.0.0", wrap-ansi@^7.0.0:
+  name wrap-ansi-cjs
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
   integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
